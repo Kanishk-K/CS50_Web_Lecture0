@@ -20,6 +20,9 @@ img {
     border-radius: 10px;
     border: 7px inset gray;
 }
+li::before {
+    content: "I've "
+}
 .object {
     font-weight: bold;
 }

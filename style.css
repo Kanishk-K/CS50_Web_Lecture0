@@ -16,6 +16,13 @@ h1 {
 p {
     font-family: 'Century Gothic', 'Times New Roman', Times, serif;
 }
+img {
+    border-radius: 10px;
+    border: 7px inset gray;
+}
 .object {
     font-weight: bold;
+}
+#goals {
+    font-family: 'Times New Roman', Times, serif;
 }

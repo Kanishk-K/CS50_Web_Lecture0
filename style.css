@@ -16,3 +16,6 @@ h1 {
 p {
     font-family: 'Century Gothic', 'Times New Roman', Times, serif;
 }
+.object {
+    font-weight: bold;
+}

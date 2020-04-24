@@ -1,6 +1,14 @@
 table {
     padding: "5px";
+    border: 2px solid black; 
+    border-collapse: collapse;
+}
+th,td {
+    border: 1px solid black;
+}
+th {
+    text-align: center;
 }
 h1 {
-    color: blue;
+    color: forestgreen;
 }

@@ -1,0 +1,20 @@
+div div {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 20px;
+}
+.description {
+    text-align: center;
+    font-size: small;
+}
+a {
+    justify-content: center;
+    align-items: center;
+}
+a p {
+    font-size: 15px;
+    margin: 4px;
+}
+a img {
+    width: 20%;
+}

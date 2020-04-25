@@ -2,7 +2,27 @@
 <html>
     <head>
         <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <title>Kanishk's Experiences</title>
+        <style>
+            div > div{
+                background-color: lightblue;
+                padding: 10px;
+                margin: 20px;
+            }
+            .description{
+                text-align: center;
+                font-size:small;
+            }
+            a {
+                justify-content: center;
+                align-items: center;
+            }
+            a p {
+                font-size: 15px;
+                margin: 4px;
+            }
+        </style>
     </head>
     <body>
         <p>
@@ -15,5 +35,35 @@
             <li>created a program in <span class = "object">AutoIT</span> that can generate and verify keys with an online server in order to verify the software's license.</li>
             <li>made an app that can tell soil moisture anywhere in the globe using <span class = "object">NASA's EOSDIS library.</span></li>
         </ul>
+        <div class="d-flex justify-content-center row">
+            <div class="col-6 col-md-2">
+                <p class="description">My Alexa Application!</p>
+                <a href = "https://www.amazon.com/Neeesh-NASA-Near-Earth-Objects/dp/B08725C5DM/ref=sr_1_3?dchild=1&keywords=Near+Earth+Objects&qid=1587773891&s=digital-skills&sr=1-3" type="button" class="d-inline-flex btn btn-light"> 
+                    <img src="alexa.png" width="20%">
+                    <p class="center">Alexa Application</p>
+                </a>
+            </div>
+            <div class="col-6 col-md-2">
+                <p class="description">My Manim Programs!</p>
+                <a href = "https://github.com/Kanishk-K/Manim_Unit_15" type="button" class="d-inline-flex btn btn-light"> 
+                    <img src="3b1b.png" width="20%">
+                    <p class="center">Math Animation</p>
+                </a>
+            </div>
+            <div class="col-6 col-md-2">
+                <p class="description">My AutoIT Programs!</p>
+                <a href = "https://github.com/Kanishk-K/AutoIT_KeyGen_KeyDecode" type="button" class="d-inline-flex btn btn-light"> 
+                    <img src="autoit.png" width="20%">
+                    <p class="center">AutoIT Files</p>
+                </a>
+            </div>
+            <div class="col-6 col-md-2">
+                <p class="description">My Soil Moisture App!</p>
+                <a href = "http://ai2.appinventor.mit.edu/?galleryId=6182081301970944" type="button" class="d-inline-flex btn btn-light"> 
+                    <img src="mit_app.png" width="20%">
+                    <p class="center">MIT App Inventor</p>
+                </a>
+            </div>
+        </div>
     </body>
 </html>

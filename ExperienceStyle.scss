@@ -1,0 +1,24 @@
+$imagewidth: 20%;
+
+div{
+    div{
+        background-color: lightblue;
+        padding: 10px;
+        margin: 20px;
+    }
+}
+.description{
+    text-align: center;
+    font-size:small;
+}
+a {
+    justify-content: center;
+    align-items: center;
+    p{
+        font-size: 15px;
+        margin: 4px;
+    }
+    img {
+        width: $imagewidth;
+    }
+}

@@ -12,3 +12,20 @@ This is the html file that is perhaps the most complex out of the previous ones,
 
 MyInterests.html
 ================
+This html file contains a few lines of text as well as an image. While MyExperience.html has images for each button, this file has an explicit "img" tag and a larger image. While not using an @media query the image still scales to the size of the viewer.
+
+HTML Requirements
+================
+Index.html contains a table object, MyExperience.html has the list objects and MyInterests.html has the image object.
+
+Stylesheets
+===========
+My website has two stylesheets, style.css and ExperienceStyle.css. style.css styles more than five different elements while using the id and class selectors as well. The @media query is present in style.css.
+
+Bootstrap
+=========
+Bootstrap is used primarily on MyExperience.html with its buttons and columns/rows.
+
+SCSS
+====
+The MyExperience.scss file contains the imagewidth variable, with two instances of nesting, and an inheritence with @extend.

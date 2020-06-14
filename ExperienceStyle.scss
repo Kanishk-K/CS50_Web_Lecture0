@@ -1,12 +1,4 @@
 $imagewidth: 20%;
-
-div{
-    div{
-        background-color: lightblue;
-        padding: 10px;
-        margin: 20px;
-    }
-}
 .description{
     text-align: center;
     font-size:small;
@@ -21,4 +13,14 @@ a {
     img {
         width: $imagewidth;
     }
+}
+div{
+    .Button{
+        background-color: lightblue;
+        padding: 10px;
+        margin: 20px;
+    }
+}
+.BackButton {
+    @extend .Button;
 }

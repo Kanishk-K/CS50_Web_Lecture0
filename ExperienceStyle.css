@@ -1,20 +1,24 @@
-div div {
-    background-color: lightblue;
-    padding: 10px;
-    margin: 20px;
-}
 .description {
-    text-align: center;
-    font-size: small;
+	text-align: center;
+	font-size: small;
 }
+
 a {
-    justify-content: center;
-    align-items: center;
+	justify-content: center;
+	align-items: center;
 }
+
 a p {
-    font-size: 15px;
-    margin: 4px;
+	font-size: 15px;
+	margin: 4px;
 }
+
 a img {
-    width: 20%;
+	width: 20%;
+}
+
+div .Button, div .BackButton {
+	background-color: lightblue;
+	padding: 10px;
+	margin: 20px;
 }

@@ -29,3 +29,11 @@ li::before {
 #goals {
     font-family: 'Times New Roman', Times, serif;
 }
+@media only screen and (max-width: 600px){
+    h1{
+        font-size: medium;
+    }
+    table{
+        width: 30%;
+    }
+}
